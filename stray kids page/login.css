@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    font-family: 'Barlow Condensed', sans-serif; 
+    background: url(descarga\ \(14\).jpg);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 100vh;
+    
+}
+
+form{
+    display: flex;
+    width: 500px;
+    background: white;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+    border-radius: 30px;
+    overflow: hidden;
+    border: 2px solid #fff;
+}
+
+input{
+    margin: 30px;
+    text-align: center;
+    font-size: 1.5rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #333;
+}
+
+#enviar{
+    margin-top: 30px;
+    border-radius: 30px;
+    background: linear-gradient(90deg, rgb(143, 69, 143), rgb(226, 128, 144));
+    color: #fff;
+    cursor: pointer;
+}
+
+#enviar:hover{
+    background:linear-gradient(90deg, rgb(226, 128, 144), rgb(143, 69, 143)) ;
+}
+
+#title{
+    width: 100%;
+    padding: 30px;
+    color: #fff;
+    background: linear-gradient(90deg, rgb(143, 69, 143), rgb(226, 128, 144)) ;
+}
+
+label{
+    margin-right: 300px;
+    color: rgb(161, 156, 156);
+    font-weight: bold;
+    
+}
+
+
+
+
