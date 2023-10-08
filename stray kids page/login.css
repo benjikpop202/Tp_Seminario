@@ -8,6 +8,7 @@ body{
     display: grid;
     font-family: 'Barlow Condensed', sans-serif; 
     background: url(descarga\ \(14\).jpg);
+    background-size: cover;
 }
 
 .container{
